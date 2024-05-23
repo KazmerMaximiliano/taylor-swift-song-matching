@@ -1,0 +1,89 @@
+{
+  "translation": {
+    "created_by": "Creado por",
+    "thanks": "Basado en el trabajo realizado por",
+    "reference": "Repositorio de referencia",
+    "introduction": "Un test para emparejar tu estado de ánimo actual y tu estado sentimental con una canción adecuada de Taylor Swift.",
+    "start": "Comenzar",
+    "next": "Siguiente",
+    "results": "Obtener resultados",
+    "relationship": {
+      "introduction": "Para estas cuatro primeras preguntas, si está en una relación, respóndalas con respecto a su relación actual. Si no tienes pareja, contéstalas teniendo en cuenta tu relación anterior más reciente o una posible relación en el horizonte, lo que prefieras.",
+      "question_1": {
+        "question": "¿Cuál de estas opciones describe mejor su relación?",
+        "answers": {
+          "1": "Nuestra relación terminó debido a catastróficas ofensas pasadas. O Nuestra relación tiene serios problemas.",
+          "2": "Mis sentimientos se sintieron un poco heridos cuando terminó nuestra relación. O Nuestra relación va bien, pero tiene algunos problemas.",
+          "3": "Nuestra relación terminó, pero no de una manera horriblemente mala. Simplemente terminó. O me siento bastante mediocre sobre la calidad de nuestra relación.",
+          "4": "Me gustaría tener una relación, pero no creo que ocurra ahora mismo. O soy feliz sin una relación en este momento.",
+          "5": "Mi relación es bastante casual por el momento, no es oficial ni nada por el estilo. O recuerdo con cariño mi relación anterior, sin sentirme herida ni enfadada.",
+          "6": "Mi relación va bien y estamos pensando en un compromiso a largo plazo.",
+          "7": "Voy a casarme y/o comprometerme con esta relación para el resto de mi vida."
+        }
+      },
+      "question_2": {
+        "question": "¿Cómo se presenta el futuro de tu relación?",
+        "answers": {
+          "1": "No volveremos a hablar.",
+          "2": "Probablemente nos volvamos a ver en algún momento, pero no estaremos muy en contacto.",
+          "3": "Puede que hablemos un poco menos que antes.",
+          "4": "No estoy seguro de cuál es nuestro futuro.",
+          "5": "Tenemos algunos planes futuros casuales pero nada serio en fila. O podríamos salir pero no estoy seguro.",
+          "6": "Vamos a pasar mucho tiempo juntos en el futuro.",
+          "7": "Vamos a pasar mucho tiempo juntos. Como quizás casarnos."
+        }
+      },
+      "question_3": {
+        "question": "¿Qué siente la otra persona por ti?",
+        "answers": {
+          "1": "Me han dicho que me odian.",
+          "2": "Creo que no les gusto mucho. O me han insultado un poco.",
+          "3": "Es amable conmigo pero me ven sólo como un amigo.",
+          "4": "No estoy seguro y/o no me lo han dejado claro.",
+          "5": "Tal vez tengan algunos sentimientos no platónicos por mí, pero no estoy seguro de lo fuertes que son.",
+          "6": "Me han dicho que sienten algo por mí.",
+          "7": "Han declarado abiertamente al mundo su amor por mí."
+        }
+      },
+      "question_4": {
+        "question": "¿Cuál de estas opciones describe mejor cómo pasan el tiempo juntos?",
+        "answers": {
+          "1": "Hay barreras importantes que nos impiden estar juntos.",
+          "2": "No hay barreras insalvables entre nosotros, pero nunca hacemos nada juntos.",
+          "3": "Hacemos algunas cosas juntos, pero pasamos la mayor parte del tiempo solos.",
+          "4": "Hacemos más o menos la misma cantidad de cosas juntos que solos.",
+          "5": "Hacemos algunas cosas solos, pero pasamos la mayor parte del tiempo haciendo cosas juntos.",
+          "6": "Lo hacemos casi todo juntos.",
+          "7": "Lo hacemos todo juntos, e incluso cuando no estamos juntos sólo pienso en que estamos juntos."
+        }
+      }
+    },
+    "feeling": {
+      "introduction": "Para las dos preguntas siguientes, piense en cómo se siente sobre su vida en general.",
+      "question_1": {
+        "question": "¿Cuál de estas opciones describe mejor cómo te sientes contigo mismo?",
+        "answers": {
+          "1": "Tengo muchos problemas y todos son culpa mía.",
+          "2": "Tengo muchos problemas, pero no creo que todos sean culpa mía.",
+          "3": "No tengo muchos problemas importantes, pero a veces pienso que podría hacerlo mejor.",
+          "4": "No sé muy bien cómo me siento.",
+          "5": "Me siento bastante bien conmigo mismo, y sólo soy un poco inseguro en ocasiones.",
+          "6": "Tengo algunas dudas, pero en general me siento muy bien.",
+          "7": "Soy increíble, mi vida es increíble, esto es la bomba."
+        }
+      },
+      "question_2": {
+        "question": "¿Cuál de los siguientes describe su estado emocional?",
+        "answers": {
+          "1": "Estás muy enfadado por algo y/o muy deprimido por algo.",
+          "2": "No te gusta cómo va tu vida y sólo quieres hacer un trato para recuperar tu antigua vida.",
+          "3": "Sabes que algo va mal en tu vida pero quieres ignorarlo.",
+          "4": "Has aceptado las cosas malas que te han ocurrido y estás preparado para superarlas.",
+          "5": "Te sientes bastante neutral y esperas que la vida te haga feliz.",
+          "6": "Trabajas activamente para ser feliz.",
+          "7": "Trabajas activamente para ser feliz e intentas que los demás también lo sean."
+        }
+      }
+    }
+  }
+}
