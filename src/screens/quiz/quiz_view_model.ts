@@ -73,7 +73,7 @@ export const QuizViewModel = () => {
 
   useEffect(() => {
     const loadAndProcessCSV = async () => {
-      const response = await fetch('Grades_Embed.csv');
+      const response = await fetch('assets/Grades_Embed.csv');
       const csvText = await response.text();
       const data = processCSV(csvText);
       const newMatcher = new TaylorSwiftMatcher(data);
