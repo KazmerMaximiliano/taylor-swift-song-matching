@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url("pinkcloud.png");
+  background-image: url("assets/pinkcloud.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -279,12 +279,29 @@ label {
 }
 
 @media (max-width: 750px) {
+  .container {
+    justify-content: flex-start;
+  }
+
   .card {
-    max-height: 500px;
+    width: 100%;
+    max-width: 100%;
+    height: 100vh;
+    max-height: calc(100vh - 50px);
+    border-radius: 0px;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .content-text {
+    margin-top: 0px;
+    flex: 0;
   }
 
   .answers {
-    max-height: 200px;
+    max-height: 60%;
   }
 
   .answer-container {
