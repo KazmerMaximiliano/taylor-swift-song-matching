@@ -6,8 +6,8 @@ export const QuizViewModel = () => {
   const [matcher, setMatcher] = useState<TaylorSwiftMatcher>();
   const [activeQuestion, setActiveQuestion] = useState(0);
   const [results, setResults] = useState<string[]>([]);
-  const [relationshipInputs, setRelationshipInputs] = useState<number[]>([4, 4, 4, 4]);
-  const [feelingInputs, setFeelingInputs] = useState<number[]>([4, 4]);
+  const [relationshipInputs, setRelationshipInputs] = useState<number[]>([]);
+  const [feelingInputs, setFeelingInputs] = useState<number[]>([]);
   const [activeQuestionOptionSelected, setActiveQuestionOptionSelected] = useState<number | null>(null);
   const [finished, setFinished] = useState<boolean>(false);
   const scrollAnswers = useRef<HTMLDivElement>(null);
