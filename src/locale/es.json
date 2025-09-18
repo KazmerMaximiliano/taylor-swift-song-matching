@@ -7,6 +7,7 @@
     "start": "Comenzar",
     "next": "Siguiente",
     "results": "Obtener resultados",
+    "restart": "Volver a empezar",
     "relationship": {
       "introduction": "Para estas cuatro primeras preguntas, si está en una relación, respóndalas con respecto a su relación actual. Si no tienes pareja, contéstalas teniendo en cuenta tu relación anterior más reciente o una posible relación en el horizonte, lo que prefieras.",
       "question_1": {

@@ -1,0 +1,39 @@
+.content-text {
+  margin: 20px 0px;
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  color: #1e1e1e;
+  margin-bottom: 20px;
+  text-align: center;
+  flex: 1;
+  align-content: center;
+}
+
+.answers {
+  max-height: 375px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.answers::-webkit-scrollbar {
+  width: 6px;
+}
+
+.answers::-webkit-scrollbar-thumb {
+  background-color: #da2f6e;
+  border-radius: 6px;
+}
+
+@media (max-width: 750px) {
+  .content-text {
+    margin-top: 0px;
+    flex: 0;
+  }
+
+  .answers {
+    max-height: 60%;
+  }
+}

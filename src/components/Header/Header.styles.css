@@ -1,0 +1,37 @@
+.title-container {
+  position: relative;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-family: "Satisfy", cursive;
+  color: #fff;
+  text-align: center;
+  color: #da2f6e;
+  transform: rotate(-5deg);
+}
+
+.subtitle {
+  font-size: 1.25rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  color: #1e1e1e;
+  position: absolute;
+  left: 25px;
+  top: 55px;
+  z-index: -1;
+}
+
+@media (max-width: 750px) {
+  .subtitle {
+    top: 65px;
+  }
+}
