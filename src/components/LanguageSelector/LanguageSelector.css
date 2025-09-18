@@ -1,0 +1,86 @@
+.custom-select {
+  position: relative;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 2rem;
+  outline: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.select-display {
+  background: transparent;
+  border: 1px solid #da2f6e;
+  color: #da2f6e;
+  padding: 0.75rem 1rem;
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.select-display:hover,
+.custom-select:focus .select-display {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 4px 16px rgba(218, 47, 110, 0.16);
+}
+
+.custom-select.open .select-display {
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 4px 16px rgba(218, 47, 110, 0.16);
+}
+
+.select-options {
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  border: 1px solid #da2f6e;
+  border-radius: 1rem;
+  box-shadow: 0 4px 16px rgba(218, 47, 110, 0.16);
+  z-index: 10;
+  margin: 0;
+  padding: 0px 0px;
+  list-style: none;
+  max-height: 220px;
+  overflow-y: auto;
+  animation: fadeIn 0.2s;
+  display: none;
+}
+
+.select-options.show {
+  display: block;
+}
+
+.select-options li {
+  padding: 0.75rem 0;
+  color: #da2f6e;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 14px;
+  text-align: center;
+}
+
+.select-options li.selected,
+.select-options li:hover {
+  background: #da2f6e;
+  color: #fff;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

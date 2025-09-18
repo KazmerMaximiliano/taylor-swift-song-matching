@@ -1,8 +1,14 @@
 import { useEffect, useRef, useState } from "react";
+import { LanguageOption } from "../../components/LanguageSelector/LanguageSelector.types";
 import { TaylorSwiftMatcher } from "../../models/taylor_swift_matcher";
-import { LocaleQuestions } from "./locale_questions";
+import { LocaleQuestions } from "./questions";
 
-export const QuizViewModel = () => {
+export const QuizScreenViewModel = () => {
+  const languageOptions: LanguageOption[] = [
+    { value: "en", label: "EN" },
+    { value: "es", label: "ES" },
+  ];
+
   const [matcher, setMatcher] = useState<TaylorSwiftMatcher>();
   const [activeQuestion, setActiveQuestion] = useState(0);
   const [results, setResults] = useState<string[]>([]);
@@ -56,6 +62,15 @@ export const QuizViewModel = () => {
     }
   }
 
+  const handleReset = () => {
+    setActiveQuestion(0);
+    setResults([]);
+    setRelationshipInputs([]);
+    setFeelingInputs([]);
+    setActiveQuestionOptionSelected(null);
+    setFinished(false);
+  }
+
   useEffect(() => {
     const handleMatch = () => {
       if (matcher) {
@@ -92,5 +107,7 @@ export const QuizViewModel = () => {
     activeQuestionOptionSelected,
     scrollAnswers,
     results,
+    languageOptions,
+    handleReset
   };
 }
